@@ -1,0 +1,24 @@
+# Dependencies of notebooks/Source_Code.ipynb
+#
+# The package names below are taken from the install cell of the notebook.
+# The versions used when the project was run on Google Colab were not recorded,
+# so nothing is pinned here. This file has not been used to build an
+# environment, and the notebook has not been re-run with it.
+#
+# Constraint found in package metadata (not by running the code):
+# facenet-pytorch 2.6.0 requires torch>=2.2,<2.3, torchvision>=0.17,<0.18,
+# numpy>=1.24,<2.0 and Pillow>=10.2,<10.3. The notebook imports facenet-pytorch
+# even though face fusion is off by default (FACE_WEIGHT = 0), so the
+# environment must satisfy these limits.
+
+ultralytics
+opencv-python
+pandas
+tqdm
+pillow
+numpy
+torch
+facenet-pytorch
+
+# Torchreid (OSNet and FeatureExtractor). The notebook installs it from GitHub:
+git+https://github.com/KaiyangZhou/deep-person-reid.git

@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Jupyter / Colab
+.ipynb_checkpoints/
+.config/
+sample_data/
+
+# Model weights and compiled models (not stored in this repository)
+*.pt
+*.pth
+*.onnx
+*.tflite
+
+# Data, videos and generated outputs (may contain images of people)
+data/
+datasets/
+*.mp4
+*.avi
+*.mov
+reid_botsort_output/
+selected_track_crops/
+identity_gallery/
+person_crops.zip
+gallery_features.npy
+
+# Editors and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
