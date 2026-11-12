@@ -4,7 +4,7 @@ Final Year Project, BSc Electrical Engineering, Namal University, Mianwali (2026
 
 This project detects, tracks and re-identifies people in recorded video so that a person who leaves the camera view and comes back is not counted twice. It uses YOLOv8 for person detection, BoT-SORT for short-term tracking and an OSNet appearance model fine-tuned on a self-collected dataset. An identity gallery decides whether a returning person is new or already known.
 
-**Authors:** Muhammad Wajid Jamal and Muhammad Usman Shah. Both authors worked on every stage of the project: data collection, model fine-tuning, pipeline implementation, testing and report writing.
+**Authors:** Muhammad Usman Shah and Muhammad Wajid Jamal. Both authors worked on every stage of the project: data collection, model fine-tuning, pipeline implementation, testing and report writing.
 **Supervisor:** Dr. Mudassar Raza
 
 ## At a glance
@@ -198,8 +198,8 @@ More detail, including limits of this repository, is in [docs/limitations.md](do
 
 | Name | Contribution |
 |---|---|
-| Muhammad Wajid Jamal | Joint project work across all stages |
 | Muhammad Usman Shah | Joint project work across all stages |
+| Muhammad Wajid Jamal | Joint project work across all stages |
 
 Both authors were involved in data collection, dataset preparation, model fine-tuning, pipeline implementation, testing and report writing. Supervisor: Dr. Mudassar Raza, Department of Electrical Engineering, Namal University, Mianwali.
 
