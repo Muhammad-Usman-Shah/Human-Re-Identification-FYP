@@ -17,8 +17,15 @@ This project detects, tracks and re-identifies people in recorded video so that 
 | Test split | 11,335 train, 2,830 test/gallery, 35 query images |
 | Reported accuracy | mAP of about 98% and Rank-1 of 97.14% on the authors' own 35-query test set |
 | Scope | Recorded video, one camera setup, several viewing angles |
+| Demo | [Video demonstration on YouTube](https://youtu.be/LCYKh9iYdNQ) |
 
 The accuracy values come from a small self-collected test set. They are not benchmark results. See [Experimental results](#experimental-results) for what the evidence is and what it is not.
+
+## Video demonstration
+
+[![Watch the video demonstration](https://img.youtube.com/vi/LCYKh9iYdNQ/hqdefault.jpg)](https://youtu.be/LCYKh9iYdNQ)
+
+*Click the thumbnail to watch the project demonstration on YouTube: https://youtu.be/LCYKh9iYdNQ*
 
 ## Project overview
 
